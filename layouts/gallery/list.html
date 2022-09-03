@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="row justify-content-center mb-3">
+  <div class="col-md-12 col-lg-9">
+      <h1 class="text-center">{{ .Title }}</h1>
+      <div class="text-center">{{ .Content }}</div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-lg-4 g-lg-5">
+	{{ range .Data.Pages -}}
+	<div class="col">
+		<div class="card">
+			<div class="card-body">
+				{{ $image := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) }}
+				<div class="gallery-img" style="background-image: url({{ $image.Permalink }})">
+				</div>
+				<h2 class="h6 mt-4 mb-2"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+				<p>{{ .Params.lead | safeHTML }}</p>
+				{{ partial "main/blog-meta.html" . -}}
+			</div>
+		</div>
+	</div>
+	{{ end -}}
+</div>
+{{ end }}

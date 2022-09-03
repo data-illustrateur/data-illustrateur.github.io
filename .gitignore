@@ -1,0 +1,15 @@
+node_modules
+public
+resources
+.netlify
+.hugo_build.lock
+
+functions
+package-lock.json
+# Local Netlify folder
+
+# System Files
+.DS_Store
+Thumbs.db
+npm-debug.log
+node_modules
