@@ -113,10 +113,10 @@
 #   url = "/tutorial/lorem/ipsum/"
 #   weight = 15
 
-[[main]]
-  name = "FAQ"
-  url = "/blog/"
-  weight = 30
+# [[main]]
+#   name = "FAQ"
+#   url = "/blog/"
+#   weight = 30
 
 # [[social]]
 #   name = "Twitter"

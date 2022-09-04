@@ -1,14 +1,14 @@
 {
-  "name": "@atlas-vis/atlas-vis.github.io",
-  "description": "Website for Atlas.js",
-  "version": "0.2.3",
+  "name": "@dataillustrateur/dataillustrateur.github.io",
+  "description": "Data Illustrateur",
+  "version": "2.0",
   "hugo-bin": {
     "buildTags": "extended"
   },
   "browserslist": [
     "defaults"
   ],
-  "repository": "https://github.com/atlas-vis/atlas-vis.github.io",
+  "repository": "https://github.com/dataillustrateur/dataillustrateur.github.io",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

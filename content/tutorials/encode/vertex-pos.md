@@ -1,5 +1,5 @@
 ---
-title: "Vertex and Segment Position Encoding"
+title: "Vertex Position Encoding"
 description: ""
 date: 2020-08-27T19:23:18+02:00
 lastmod: 2020-08-27T19:23:18+02:00
@@ -8,7 +8,7 @@ images: []
 menu:
   tutorials:
     parent: "encode"
-weight: 107
+weight: 110
 toc: true
 ---
 
@@ -30,3 +30,10 @@ The following example illustrates binding data to hand-drawn vertices to create 
 When you [densify](../../generate/densify) a line by data, the vertices are generated and associated with data. The binding action will apply to all the vertices on the path. In the example below, we create a small multiple of line graphs, where each line represents the stock price of a company over time. We first perform the repeat action on a line, which places the lines in a grid layout. Each line represents a "company". We then densify the lines by "Date". Finally, we bind "date" to the x positions of the vertices, and "price" to the y positions of the vertices. The final result is a set of line graphs, placed in a grid. You can change the layout parameters to arrange the line graphs in different ways.
 
 Given the small multiple, we can also change the layout of the collection to "None" so that the line graphs share the same axis. Once the layout is removed, Data Illustrateur automatically unifies the scales of the line graphs, creating a multi-line graph.
+
+{{< rawhtml >}} 
+<video width=700px class="tutorial-video" controls>
+    <source src="/videos/bind-vertex-densified.mov" type="video/mp4">
+    Your browser does not support the video tag.  
+</video>
+{{< /rawhtml >}}
