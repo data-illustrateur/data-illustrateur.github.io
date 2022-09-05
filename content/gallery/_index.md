@@ -6,4 +6,4 @@ lastmod: 2020-10-06T08:49:55+00:00
 draft: false
 images: []
 ---
-Click on each example to open it in Data Illustrateur and to watch demo video. <br>For best viewing experience, please use Google Chrome.
+Click on each example to see how it is created using Data Illustrateur. <br>For best viewing experience, please use Google Chrome.

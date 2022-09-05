@@ -102,11 +102,11 @@
   identifier = "get-started"
   url = "/tutorials/interface/overview"
 
-# [[main]]
-#   name = "Gallery"
-#   url = "/gallery/"
-# # url = "/docs/1.0/prologue/introduction/"
-#   weight = 20
+[[main]]
+  name = "Gallery"
+  url = "/gallery/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 20
 
 # [[main]]
 #   name = "Tutorial"

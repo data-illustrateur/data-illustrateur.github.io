@@ -11,7 +11,6 @@ menu:
 weight: 10
 toc: false
 ---
-Data Illustrateur aims to make visualization creation as easy as creating an illustration in a design tool like [Adobe Experience Design](https://www.adobe.com/products/xd.html), [Figma](https://www.figma.com/) or [Sketch](https://www.sketch.com/). These tutorials will get you started with the basic concepts and tools you’ll need to create amazing visualizations.
 
 
 Data Illustrateur's interface consists of seven components:
