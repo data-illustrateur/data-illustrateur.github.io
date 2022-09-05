@@ -1,5 +1,5 @@
 {
-  "name": "@dataillustrateur/dataillustrateur.github.io",
+  "name": "@data-illustrateur/data-illustrateur.github.io",
   "description": "Data Illustrateur",
   "version": "2.0",
   "hugo-bin": {
@@ -8,7 +8,7 @@
   "browserslist": [
     "defaults"
   ],
-  "repository": "https://github.com/dataillustrateur/dataillustrateur.github.io",
+  "repository": "https://github.com/data-illustrateur/data-illustrateur.github.io",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

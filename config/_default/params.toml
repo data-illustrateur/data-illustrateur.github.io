@@ -18,7 +18,7 @@ ogLocale = "en_US"
 schemaType = "Organization"
 schemaLogo = "atlas.png"
 # schemaTwitter = "https://twitter.com/henkverlinde"
-schemaGitHub = "https://github.com/atlas-vis/atlas-vis.github.io"
+schemaGitHub = "https://github.com/data-illustrateur/data-illustrateur.github.io"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -42,7 +42,7 @@ alert = false
 alertText = "Alert Text"
 
 # Edit Page
-docsRepo = "https://github.com/atlas-vis/atlas-vis.github.io"
+docsRepo = "https://github.com/data-illustrateur/data-illustrateur.github.io"
 editPage = false
 
 [options]
