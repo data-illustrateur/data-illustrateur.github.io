@@ -1,5 +1,5 @@
 ---
-title: "Stock Market"
+title: "Stock Prices"
 description: "Monthly Stock Prices of four companies: Amazon, Apple, IBM and Microsoft from Jan 1, 2000 to Mar 1, 2010. Original visualization was composed using d3.js on d3noob.org"
 excerpt: "Monthly average stock prices of four companies from Jan 1, 2000 to Mar 1, 2010."
 date: 2020-11-04T09:19:42+01:00
@@ -12,10 +12,12 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
+dataset: "/app/csv/stocks.csv"
+
 ---
 Monthly Stock Prices of four companies: Amazon, Apple, IBM and Microsoft from Jan 1, 2000 to Mar 1, 2010. Original visualization was composed using d3.js on [d3noob.org](https://bl.ocks.org/d3noob/08af723fe615c08f9536f656b55755b4).
 
-First, we draw a line, repeat it by "Company", then divide each line by "Date". 
+First, we draw a line, repeat it by "Company", then densify each line by "Date". 
 
 {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>

@@ -12,6 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
+dataset: "/app/csv/olympic-medals.csv"
 ---
 This visualization shows 2012 Summer Olympic Medal Counts by National Olympic Committees (NOCs). Of the 204 NOCs participating, 85 received at least one medal. In this visualization, we show the top 20 NOCs.
 

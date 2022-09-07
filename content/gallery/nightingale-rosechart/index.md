@@ -12,6 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
+dataset: "/app/csv/nightingale.csv"
 ---
 A reproduction of [Florence Nightingale’s rose diagram](https://www.historyofinformation.com/detail.php?entryid=3815). Data Source: Nightingale, F., Farr, W., & Smith, A. (1859). A contribution to the sanitary history of the British army during the late war with Russia. John W. Parker and Son.
 

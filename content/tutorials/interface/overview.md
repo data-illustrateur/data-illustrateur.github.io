@@ -13,7 +13,7 @@ toc: false
 ---
 
 
-Data Illustrateur's interface consists of seven components:
+Data Illustrateur's interface consists of five components:
 
 1. **Tool Bar**, which provides selection tools, drawing tools, and action buttons
 2. **Canvas**, where you select, draw and manipulate items

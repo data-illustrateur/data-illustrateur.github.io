@@ -12,6 +12,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
+dataset: "/app/csv/GDP%20Change.csv"
+
 ---
 This visualization shows the percent change of U.S. Real Gross Domestic Product (GDP) in each quarter from 2017 to 2020, compared to the preceding quarter. Data source: U.S. Bureau of Economic Analysis
 

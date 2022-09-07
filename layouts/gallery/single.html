@@ -4,6 +4,7 @@
     <article>
       <div class="blog-header">
         <h1>{{ .Title }}</h1>
+        <a class="btn btn-primary btn-sm px-4 mb-0" href="{{ .Params.dataset }}" role="button">Download Data (.csv)</a>
         <!-- {{ partial "main/blog-meta.html" . }} -->
       </div>
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
