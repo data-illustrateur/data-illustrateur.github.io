@@ -35,3 +35,4 @@ Whenever you make a selection, the Propery Control Panel will update to show a l
 
 To add to the current selection, hold down the "Shift" key. To clear the selection, click any empty space in the canvas.
 
+Press the "Delete" key to delete any selected items. 

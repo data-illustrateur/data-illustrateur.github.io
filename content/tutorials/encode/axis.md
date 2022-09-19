@@ -11,7 +11,7 @@ menu:
 weight: 107
 toc: false
 ---
-When a [repeat](../../generate/repeat) action or a [data binding](../bind) action is performed, Data Illustrateur tries to automatically create an axis. An x-axis can be freely moved vertically, and a y-axis can be freely moved horizontally. You can also customize the following properties of an axis through the Property Inspector: whether to show axis path, whether to show axis ticks, whether to show axis title, axis orientation, stroke color, text color, position of axis path, tick offset, tick size, label offset, and label format. The figure below illustrates some of these properties:
+When a [repeat](../../generate/repeat) action or a [data binding](../bind) action is performed, Data Illustrateur tries to automatically create an axis. An x-axis can be freely moved vertically, and a y-axis can be freely moved horizontally. You can also customize the following properties of an axis through the Property Inspector: whether to show axis path, whether to show axis ticks, whether to show axis title, axis orientation, stroke color, text color, position of axis path, tick offset, tick size, label offset, label format, and label rotation. The figure below illustrates some of these properties:
 
 {{< figure src="../axis.png" width="650px" alt="axis components" caption="" class="border-0 mx-auto text-center" >}}
 
