@@ -13,7 +13,7 @@
 				{{ $image := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) }}
 				<div class="gallery-img" style="background-image: url({{ $image.Permalink }})">
 				</div>
-				<h2 class="h6 mt-4 mb-2"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+				<h2 class="h6 mt-4 mb-n2"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
 				<p>{{ .Params.lead | safeHTML }}</p>
 				<p>{{ .Params.excerpt | safeHTML }}</p>
 				<!-- {{ partial "main/blog-meta.html" . -}} -->
