@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Prices: 2013 - 2018 "
 description: "Evolution of the bitcoin price from Apr 28, 2013 to Apr 23, 2018."
-excerpt: "Evolution of the bitcoin price from Apr 28, 2013 to Apr 23, 2018."
+excerpt: "Time series data about the price of Bitcoin from Apr 28, 2013 to Apr 23, 2018."
 date: 2020-11-04T09:19:42+01:00
 lastmod: 2020-11-04T09:19:42+01:00
 draft: false

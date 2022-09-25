@@ -1,5 +1,5 @@
 ---
-title: "Percentage of Women Across Job Levels"
+title: "Share of Women Across Job Levels"
 description: "The percentage of women declines as the job level goes higher."
 excerpt: "The percentage of women declines as the job level goes higher in US corporations."
 date: 2020-11-04T09:19:42+01:00

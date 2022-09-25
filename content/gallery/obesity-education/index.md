@@ -1,7 +1,7 @@
 ---
 title: "Obesity vs. Education in U.S. States"
 description: "Obesity is inversely correlated with education level across US states."
-excerpt: "Obesity is inversely correlated with education level across US states."
+excerpt: "The inverse relationship between the obesity level and education level across US states."
 date: 2020-11-04T09:19:42+01:00
 lastmod: 2020-11-04T09:19:42+01:00
 draft: false
@@ -36,7 +36,7 @@ Next, let's style the lines. We select the vertices, set their shapes to circle 
 </video>
 {{< /rawhtml >}}
 
-Finally, let's drag the axis handle to increase the range extent. Since the scales are merged, dragging one axis handle also affects the other. We can flip the orientation of the y axis for "BA Degree Percentage" to the right, and move both axes so that they pass through the center of the vertices. 
+Finally, let's drag the axis handle to increase the range extent. Since the scales are merged, dragging one axis handle also affects the other. We can flip the orientation of the y axis for "BA Degree Percentage" to the right, so that the two axes look more symmetrical. 
 
 {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
