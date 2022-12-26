@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/unemployment-2.csv"
-
+msc: "StreamGraph"
+chartType: "Stream Graph"
 ---
 This visualization shows the number of unemployed people in four industries (Manufacturing, Leisure and hospitality, Business services and Construction) from 2000 to 2010 in the form of a streamgraph. [Original visualization](https://observablehq.com/@d3/streamgraph) is from observablehq.com.
 

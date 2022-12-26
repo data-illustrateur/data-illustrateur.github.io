@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/bitcoin-price.csv"
-msc: "/app/scenes/AreaChart.msc"
+chartType: "Area Chart"
+msc: "AreaChart"
 ---
 This area chart shows how the bitcoin prices are changing from 4/28/2013 to 4/23/2018. [Original visualization](https://d3-graph-gallery.com/graph/area_basic.html) is from https://d3-graph-gallery.com/.
 

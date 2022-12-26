@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/bostonWeather.csv"
-
+chartType: "Range Chart"
+msc: "RangeChart"
 ---
 This range chart shows daily maximum, minimum and mean temperatures for a year in Boston. [Original visualization](http://weather-radials.com/) by [Timm Kekeritz](http://kekeritz.com/) of [Raureif](https://raureif.net/) was in the polar space, we demonstrate how to create similar designs in the Cartesian space.
 

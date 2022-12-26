@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/newCarColors.csv"
-
+msc: "BumpChart"
+chartType: "Bump Chart"
 ---
 This bump chart shows how the rankings of new car colors change over the years in North America. The magenta color denotes 'other' colors. [Original visualization](https://public.tableau.com/profile/rody.zakovich#!/vizhome/TheUntanglingofColorPopularityamongNewCarsinNorthAmerica/TheUntanglingofColorPopularityforNewCars) is designed by Rody Zakovich.
 

@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/gender-job-level.csv"
-
+msc: "MosaicPlot"
+chartType: "Marimekko Chart / Mosaic Plot"
 ---
 This mosaic plot shows that the percentage of women declines as the job level goes higher in US corporations, based on a 2016 survey. [Original visualization](http://www.womanindata.co.uk/2017/02/workout-wednesday-week-8-marimekko.html) by Emma Whyte.
 

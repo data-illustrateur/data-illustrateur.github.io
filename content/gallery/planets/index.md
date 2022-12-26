@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/planets.csv"
-
+msc: "BubblePlot"
+chartType: "Bubble Plot"
 ---
 This bubble plot shows 1626 planets and which ones are habitable. Temperature should not be too hot or too cold. The mass also plays a role: a small planet can't have an atmosphere, while a large one will have a crushing atmosphere. [Original visualization](http://www.nationalgeographic.com/astrobiology/goldilocks-worlds/) by John Tomanio and Xaquin G.V., NGM STAFF. Source: Abel Méndez, Planetary Habitability Laboratory, University of Puerto Rico at Arecibo.
 

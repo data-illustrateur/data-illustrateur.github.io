@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/cars.csv"
-
+msc: "ParallelCoordinates"
+chartType: "Parallel Coordinates Plot"
 ---
 This parallel coordinates plot shows the features of 406 cars. Original visualization appeared in Robert Spence's book [Information Visualization: an Introduction](https://books.google.com/books?id=uOosBQAAQBAJ&dq=406+cars+visualization&source=gbs_navlinks_s), page 69.
 

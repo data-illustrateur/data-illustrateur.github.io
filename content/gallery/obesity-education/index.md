@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/obesityEducation.csv"
-
+msc: "SlopeGraph"
+chartType: "Slope Graph"
 ---
 This visualization shows that on average, percentage of obesity is inversely correlated with the percentage of population having a bachelor degree or higher. Each line represents a U.S. state. The left axis represents the obesity percentages, the right axis represents the percentages of people with a higher education. [Original visualization](http://www.thefunctionalart.com/2012/03/functional-art-has-cover_21.html) created by Alberto Cairo.
 

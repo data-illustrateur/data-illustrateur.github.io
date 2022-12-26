@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/nbaRedraft.csv"
-
+msc: "HeatMap"
+chartType: "Heatmap"
 ---
 This heatmap colors each player by VORP (Value over Replacement Player), which converts the BPM rate into an estimate of each player's overall contribution to the team, measured vs. what a theoretical 'replacement player' would provide, where the 'replacement player' is defined as a player onminimum salary or not a normal vmember of a team's rotation. A VORP of -20 is used for players that did not play enough minutes.
 

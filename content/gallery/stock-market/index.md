@@ -13,7 +13,8 @@ contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
 dataset: "/app/csv/stocks.csv"
-
+msc: "MultiLineGraph"
+chartType: "Multi-Line Graph"
 ---
 Monthly Stock Prices of four companies: Amazon, Apple, IBM and Microsoft from Jan 1, 2000 to Mar 1, 2010. Original visualization was composed using d3.js on [d3noob.org](https://bl.ocks.org/d3noob/08af723fe615c08f9536f656b55755b4).
 
