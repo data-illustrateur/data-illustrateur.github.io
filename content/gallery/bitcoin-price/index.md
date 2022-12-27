@@ -12,7 +12,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/bitcoin-price.csv"
+dataset: "bitcoin-price"
+#  "/app/csv/bitcoin-price.csv"
 chartType: "Area Chart"
 msc: "AreaChart"
 ---

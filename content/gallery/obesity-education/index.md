@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/obesityEducation.csv"
+dataset: "obesityEducation"
 msc: "SlopeGraph"
 chartType: "Slope Graph"
 ---

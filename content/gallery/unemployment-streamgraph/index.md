@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/unemployment-2.csv"
+dataset: "unemployment-2"
 msc: "StreamGraph"
 chartType: "Stream Graph"
 ---

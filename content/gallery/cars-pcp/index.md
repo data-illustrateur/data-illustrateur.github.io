@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/cars.csv"
+dataset: "cars"
 msc: "ParallelCoordinates"
 chartType: "Parallel Coordinates Plot"
 ---

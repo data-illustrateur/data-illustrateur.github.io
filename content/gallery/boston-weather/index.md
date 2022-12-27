@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/bostonWeather.csv"
+dataset: "bostonWeather"
 chartType: "Range Chart"
 msc: "RangeChart"
 ---

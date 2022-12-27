@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/olympic-medals.csv"
+dataset: "olympic-medals"
 msc: "StackedBarChart"
 chartType: "Stacked Bar Chart"
 ---

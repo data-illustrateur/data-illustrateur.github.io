@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/GDP%20Change.csv"
+dataset: "GDP%20Change"
 msc: "BarChartVert"
 chartType: "Grouped Bar Chart"
 ---

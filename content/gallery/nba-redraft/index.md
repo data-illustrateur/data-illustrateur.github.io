@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/nbaRedraft.csv"
+dataset: "nbaRedraft"
 msc: "HeatMap"
 chartType: "Heatmap"
 ---

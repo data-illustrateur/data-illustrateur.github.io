@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/newCarColors.csv"
+dataset: "newCarColors"
 msc: "BumpChart"
 chartType: "Bump Chart"
 ---

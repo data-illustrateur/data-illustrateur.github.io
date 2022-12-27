@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/nightingale.csv"
+dataset: "nightingale"
 msc: "RoseChart"
 chartType: "Rose Chart / Coxcomb Chart"
 ---

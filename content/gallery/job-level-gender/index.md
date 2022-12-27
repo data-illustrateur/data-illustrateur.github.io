@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/gender-job-level.csv"
+dataset: "gender-job-level"
 msc: "MosaicPlot"
 chartType: "Marimekko Chart / Mosaic Plot"
 ---

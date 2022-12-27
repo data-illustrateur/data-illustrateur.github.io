@@ -12,7 +12,7 @@ tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
 pinned: false
 homepage: false
-dataset: "/app/csv/stocks.csv"
+dataset: "stocks"
 msc: "MultiLineGraph"
 chartType: "Multi-Line Graph"
 ---
