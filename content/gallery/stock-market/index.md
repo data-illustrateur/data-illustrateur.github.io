@@ -20,37 +20,44 @@ Monthly Stock Prices of four companies: Amazon, Apple, IBM and Microsoft from Ja
 
 First, we draw a line, repeat it by "Company", then densify each line by "Date". 
 
-{{< rawhtml >}} 
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/stocks-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
+
+{{<demo-video>}}YiSKo66fyUc{{</demo-video>}}
+
 
 Next, we select any line and bind its stroke color to "Company". Let's also change the stroke width to make it thicker.
 
-{{< rawhtml >}} 
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/stocks-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
+{{<demo-video>}}OAXaSKoV9I4{{</demo-video>}}
 
 We then use the direct selection tool to select any vertex in a line, and bind its x position to "Date" and y position to "Price".
 
+{{<demo-video>}}kWVWPrF1288{{</demo-video>}}
 
-{{< rawhtml >}} 
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/stocks-3.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Finally, we want all the lines to be displayed in the same chart, sharing the same scale. To do this, we select the top level collection, and change the layout from "Grid" to "None". We can then adjust the axis range to make the chart more readable.
 
-{{< rawhtml >}} 
+{{<demo-video>}}PXvLTio7TWo{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/stocks-4.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->

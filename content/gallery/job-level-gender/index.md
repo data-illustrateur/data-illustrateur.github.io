@@ -20,38 +20,45 @@ This mosaic plot shows that the percentage of women declines as the job level go
 
 First, we draw a rectangle, divide it by "Job Type", then select any resulting rectangle and divide it again by "Gender". 
 
-{{< rawhtml >}} 
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/mosaic-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
+
+{{<demo-video>}}LDTxqVUwrfc{{</demo-video>}}
 
 Next, with the resulting rectangle mark selected, we bind its width to "Percent Total", height to "Percent Gender", and drag the axis handles to customze the scale range extent.  
 
-{{< rawhtml >}} 
+{{<demo-video>}}MfMG9jKI0G0{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/mosaic-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 We then select the width axis and change its orientation, so that it appears on top and does not overlap with the job type axis. We also perform additional axis customization such as removing titles and rotating labels for the job type axis.
 
+{{<demo-video>}}4hvR_8dYiZc{{</demo-video>}}
 
-{{< rawhtml >}} 
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/mosaic-3.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Finally, we select any rectangle and bind its fill color to "Gender". We can customize the color mapping, and change the rectangle border color to white to show the boundaries more clearly.
 
-{{< rawhtml >}} 
+{{<demo-video>}}s_1mPeY8PGM{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/mosaic-4.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
