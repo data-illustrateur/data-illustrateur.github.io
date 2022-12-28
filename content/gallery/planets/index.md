@@ -21,18 +21,22 @@ This bubble plot shows 1626 planets and which ones are habitable. Temperature sh
 
 First, we draw a circle, repeat it by each row of data, bind its x position to "hzd" (habitable zone distance), and bind the y position to "mass". Since we want the planets with greater masses to be shown towards the bottom, we need to flip the y axis. To do this, we can drag the axis handle past the starting point. We also want the planets with small masses to spread out more, so we customize the y encoding by choosing a log scale. 
 
-{{< rawhtml >}} 
+{{<demo-video>}}0meBKAxDong{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/planets-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Next, we encode the radius of the circles using the "radius" data attribute, and the fill color using "hzd". Since the hzd values range from -3.0 to 3.0, Data Illustrateur chooses a diverging color scale by default. We can customize it by choosing a red-yellow-blue scale. We then set the opacity of the circles to 0.5, and set the background color to black. We can also directly drag the circles to resize them, and the size encoding will be maintained. Finally, we change the axis and legend colors to light gray, so that they stand out from the dark background. 
 
-{{< rawhtml >}} 
+{{<demo-video>}}NHLZ9Q30CJQ{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/planets-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->

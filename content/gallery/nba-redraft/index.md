@@ -23,18 +23,22 @@ This heatmap colors each player by VORP (Value over Replacement Player), which c
 
 First, we draw a thin rectangle, repeat it by each row of data, bind its x position to "Draft_Year", and bind the y position to "Draft_Pick". Let's first make the x scale wider by dragging the axis handle. Since we want the first draft picks to appear on top, we need to flip the y axis. To do this, we can drag the axis handle past the starting point.
 
-{{< rawhtml >}} 
+{{<demo-video>}}dPXcmQmoRxY{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/nba-redraft-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Next, we encode the fill color using "VORP". Since the VORP values include both positive and negative numbers, Data Illustrateur chooses a diverging color scale by default. We then set the background color to black, and change the x axis' orientation to top. Finally, we change the axis and legend colors to light gray, so that they stand out from the dark background. 
 
-{{< rawhtml >}} 
+{{<demo-video>}}CJbli-R2S-E{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/nba-redraft-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
