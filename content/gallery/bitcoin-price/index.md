@@ -21,18 +21,26 @@ This area chart shows how the bitcoin prices are changing from 4/28/2013 to 4/23
 
 First, we draw a rectangle, set its fill color to gold, then densify it by "date". 
 
-{{< rawhtml >}} 
+{{<demo-video>}}3Fd4rMwZ6L0{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/bitcoin-prices-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
-Next, we select the resulting area mark, and bind its x position to "date", and height to "value". By default, the area chart's baseline is at the bottom, we can change the baseline to top or middle through the "baseline" property control. 
+Next, we select any of the top vertices, and bind its x-position to "date"; we do the same for the bottom vertices and choose to merge with the existing date scale. Data Illustrateur distinguishes between a vertex's x-position and an area mark's x-position, here we are using the former to encode "date". 
 
-{{< rawhtml >}} 
+{{<demo-video>}}P2IgQ_e0nPU{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/bitcoin-prices-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
+
+ Finally, we select the area mark and bind its height to "value". By default, the area chart's baseline is at the bottom, we can change the baseline to top or middle through the "baseline" property control. 
+
+ {{<demo-video>}}v6CBfIIUfJ8{{</demo-video>}}

@@ -20,18 +20,22 @@ This visualization shows the percent change of U.S. Real Gross Domestic Product 
 
 First, we draw a rectangle, set its fill color, repeat it by "Quarter", then repeat the resulting collection again by "Year". 
 
-{{< rawhtml >}} 
+{{<demo-video>}}orPI1d7aOxo{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/gdp-change-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Next, we select any rectangle and bind its height to "% Change". We then customize the axis position and style. 
 
-{{< rawhtml >}} 
+{{<demo-video>}}ovjR_yvaQnY{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/gdp-change-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->

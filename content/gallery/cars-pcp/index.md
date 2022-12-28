@@ -20,27 +20,33 @@ This parallel coordinates plot shows the features of 406 cars. Original visualiz
 
 First, we draw a path consisting of six vertices. To make the path flat and horizontal, press the "Shift" key when drawing the path. Press the "Esc" key after drawing the last vertex. We then select the path, and repeat it for each row of data. The resulting collection contains 406 paths. Let's change the gap between the path to 1 pixel, and also set the layout to "none", so that we can proceed with data binding. 
 
-{{< rawhtml >}} 
+{{<demo-video>}}4MFzxB_CCqc{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/pcp-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Next, we use the direct selection tool to select each of the vertices in a path, and bind the y position to "economy(mpg)", "cylinders", "displacement(cc)", "power(hp)", "weight(lb)", and "year" respectively.   
 
-{{< rawhtml >}} 
+{{<demo-video>}}Po-WwHQqTm0{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/pcp-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
-Finally, we select any path to customize its stroke color and opacity. We can also customize the label format for the "year" axis.
+We can also customize the label format for the "year" axis. Finally, we select any path to bind its stroke color to the number of cyclinders, customize the color scheme, and change the opacity. 
 
-{{< rawhtml >}} 
+{{<demo-video>}}uDwBLXrufFw{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/pcp-3.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
