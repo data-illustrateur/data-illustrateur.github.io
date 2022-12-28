@@ -20,46 +20,55 @@ This bump chart shows how the rankings of new car colors change over the years i
 
 First, we draw a line, repeat it by "Color", then densify each line by "Year". 
 
-{{< rawhtml >}} 
+{{<demo-video>}}4EkWgxpT2gA{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/car-colors-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Next, we direct select any vertex on any line and bind the x position to "Year" and y position to "Rank".
 
-{{< rawhtml >}} 
+{{<demo-video>}}Gs9pkSdp1sI{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/car-colors-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 We then change the layout of the collection of polylines to "None", so that the lines share the same y axis. Let's rescale the axes to make the chart larger. Also, it is more intuitive to arrange the rankings from top to bottom, so we can drag the y axis handle to flip it. 
 
+{{<demo-video>}}n51Mjsel0Yo{{</demo-video>}}
 
-{{< rawhtml >}} 
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/car-colors-3.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 We then select any line, bind its stroke color to "Color", and make it thicker. These changes apply to all the other lines. Let's also customize the visual styles: change the curve mode of the lines to "Bump X", and update the vertex shape to circle with radius 4. Note that the vertex colors are consistent with the line stroke colors by default. 
 
-{{< rawhtml >}} 
+{{<demo-video>}}xA92He6y0YU{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/car-colors-4.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Finally, we change the background color, and customize the color mapping through the interactive legend, so that the colors match their names. We can also change the text color of the axes to make them easier to read.
 
-{{< rawhtml >}} 
+{{<demo-video>}}55UJW_kuTnE{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/car-colors-5.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
