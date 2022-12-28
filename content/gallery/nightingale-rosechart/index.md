@@ -20,28 +20,33 @@ A reproduction of [Florence Nightingale’s rose diagram](https://www.historyofi
 
 First, we draw a circle, divide it by "Month", then divide the resulting pie by "Type". 
 
-{{< rawhtml >}} 
+{{<demo-video>}}k5uRvZO3-tw{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/rose-chart-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Next, we select any arc and bind its thickness to "Death". The default scale type is linear, we change it to "Square Root" so that the area represents the death count.
 
-{{< rawhtml >}} 
+{{<demo-video>}}y60deFGMp-I{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/rose-chart-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Finally, we bind the fill color of each arc to "Type", and customize the color mapping.
 
+{{<demo-video>}}JDI1-iqndUM{{</demo-video>}}
 
-{{< rawhtml >}} 
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/rose-chart-3.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->

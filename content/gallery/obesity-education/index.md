@@ -21,29 +21,35 @@ This visualization shows that on average, percentage of obesity is inversely cor
 
 First, we draw a line, repeat it by "State", then set the resulting collection's layout to "none". We then select the first vertex of every line, and bind its y position to "Obesity Percentage"; similarly, we bind the y position of the second vertex to "BA Degree Percentage". Since we want these two encodings to share the same scale, we choose the option "Merge with Obesity Percentage" when binding to "BA Degree Percentage".
 
-{{< rawhtml >}} 
+{{<demo-video>}}UkvL_EO_vF4{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/slope-graph-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Next, let's style the lines. We select the vertices, set their shapes to circle with a radius of 4 pixels. We then select the lines, bind their stroke color to the categorical field "Obesity vs. Higher Education". The default color scale is not what we want exactly, so we can customize the colors for the two categories. Let's also thicken the stroke width and change the opacity of the lines.
 
-{{< rawhtml >}} 
+{{<demo-video>}}Yr4eVUowGKo{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/slope-graph-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Finally, let's drag the axis handle to increase the range extent. Since the scales are merged, dragging one axis handle also affects the other. We can flip the orientation of the y axis for "BA Degree Percentage" to the right, so that the two axes look more symmetrical. 
 
-{{< rawhtml >}} 
+{{<demo-video>}}aqvhxrc8bwk{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/slope-graph-3.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 

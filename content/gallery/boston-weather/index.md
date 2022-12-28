@@ -20,27 +20,33 @@ This range chart shows daily maximum, minimum and mean temperatures for a year i
 
 First, we draw a vertical line (by holding down the Shift key), set its stroke width to 3, then repeat it by "date". 
 
-{{< rawhtml >}} 
+{{<demo-video>}}0lYPDBNM4uI{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/boston-weather-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Next, we select any line in the resulting collection, and bind its x position to "date". This will break the lines from the collection's grid layout, and create an x-axis. We then use the direct select tool to select the top vertex of any line, and bind its y position to "maxTemp". Next, we direct select the bottom vertex of any line, and bind its y position to "minTemp". Note here we have the option to either create a new scale, or merge with the existing scale created from "maxTemp. Let's merge the scale, and drag the y axis handle to make its range extent larger.
 
-{{< rawhtml >}} 
+{{<demo-video>}}oMRWfabSsWU{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/boston-weather-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Finally, we select any line, and bind its stroke color to "meanTemp". Data Illustrateur automatically chooses a color scheme and a legend. We can change the orientation of the legend to "Horizontal", and move the legend below the chart. 
 
-{{< rawhtml >}} 
+{{<demo-video>}}ADCLgA7hlKk{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/boston-weather-3.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->

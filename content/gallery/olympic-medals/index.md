@@ -20,28 +20,33 @@ This visualization shows 2012 Summer Olympic Medal Counts by National Olympic Co
 
 First, we draw a rectangle, repeat it by "Country_Code", then divide it by "Medal_Type". 
 
-{{< rawhtml >}} 
+{{<demo-video>}}HqcvWdJWwuI{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/olympic-medals-1.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Next, we select any rectangle and bind its width to "Count" and fill color to "Medal_Type". We then customize the color mapping using the interactive legend.
 
-{{< rawhtml >}} 
+{{<demo-video>}}hjKUIcQP9Fw{{</demo-video>}}
+
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/olympic-medals-2.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 Finally, we change the horizontal gravity of the top collection's grid layout to "right" to align the bars to the right. Note how the x axis is flipped automatically. We also change the orientation of the y axis to "right" and hide the axis path.
 
+{{<demo-video>}}cdFrr3u9qnw{{</demo-video>}}
 
-{{< rawhtml >}} 
+<!-- {{< rawhtml >}} 
 <video width=700px class="tutorial-video" controls>
     <source src="/videos/gallery/olympic-medals-3.mov" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
