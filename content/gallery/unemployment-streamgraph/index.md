@@ -31,7 +31,7 @@ First, we draw a rectangle, divide it by "industry", then select any resulting r
 
 Next, we select any of the top vertices in any resulting area mark, and bind its x-position to "date"; we do the same for the bottom vertices and choose to merge with the existing date scale. Data Illustrateur distinguishes between a vertex's x-position and an area mark's x-position, here we are using the former to encode "date". 
 
-We then select any area mark and bind its height to "unemployments", and fill color to "industry". Finally, we select the collection of area marks, which is organized using a stack layout, and change the vertical gravity to "middle".  
+We then select any area mark and bind its height to "unemployments", and fill color to "industry". The y axis for "industry" is no longer necessary given the color legend, so we can select and delete it. Finally, we select the collection of area marks, which is organized using a stack layout, and change the vertical gravity to "middle".  
 
 {{<demo-video>}}sguV0pGgGcc{{</demo-video>}}
 
