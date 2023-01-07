@@ -7,7 +7,7 @@ titleAddition = "Data Illustrateur"
 description = "Create data visualizations without programming."
 
 ## Open Graph + Twitter Cards
-images = ["atlas.png"]
+# images = ["atlas.png"]
 # twitterSite = "henkverlinde"
 # twitterCreator = "henkverlinde"
 # facebookAuthor = "verlinde.henk"
