@@ -25,4 +25,4 @@ The current version of Data Illustrateur supports the long format. Wikipedia has
 
 <!-- To import a dataset, click the "Open Dataset File" button in the variables pane. Data Illustrateur provides a collection of sample datasets with a short description for each file. Many of these sample datasets are used in the demo videos on [the Gallery page](/gallery). You can open a sample dataset and follow the corresponding demo video to re-create the visualization. -->
 
-To import your own dataset, click the "Import Data" button in the Data Panel, and choose your file in the dialog. Data Illustrateur parses the data file, infers the data type for each column, and displays the column names and summaries in the Data Panel.
+To import your own dataset, click the "Import Data" button in the Data Panel, and choose your file in the dialog. Data Illustrateur parses the data file, infers the data type for each column, and displays the column names and summaries in the Data Panel. Only the top 500 rows of data are shown for large datasets. 
